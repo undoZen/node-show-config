@@ -1,0 +1,33 @@
+{
+  "name": "show-node-config",
+  "version": "0.0.0",
+  "description": "show require('config') result in current environment",
+  "main": "index.js",
+  "global": true,
+  "files": ["index.js"],
+  "bin": {
+    "show-node-config": "index.js"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/undoZen/node-show-config.git"
+  },
+  "keywords": [
+    "config"
+  ],
+  "author": "undoZen <opensource@undozen.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/undoZen/node-show-config/issues"
+  },
+  "homepage": "https://github.com/undoZen/node-show-config",
+  "dependencies": {
+    "config": "*"
+  },
+  "devDependencies": {
+    "tape": "^3.4.0"
+  }
+}
