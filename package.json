@@ -1,10 +1,12 @@
 {
   "name": "show-node-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "show require('config') result in current environment",
   "main": "index.js",
   "global": true,
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "bin": {
     "show-node-config": "index.js"
   },
