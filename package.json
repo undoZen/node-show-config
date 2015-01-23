@@ -27,9 +27,10 @@
   },
   "homepage": "https://github.com/undoZen/node-show-config",
   "dependencies": {
-    "config": "*"
+    "resolve": "^1.0.0"
   },
   "devDependencies": {
+    "config": "^1.10.0",
     "tape": "^3.4.0"
   }
 }
